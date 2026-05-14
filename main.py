@@ -21,7 +21,7 @@ app.add_middleware(
     allow_origins=[
     "https://www.dragonovabooks.com",
     "https://dragonovabooks.com",
-]
+],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
